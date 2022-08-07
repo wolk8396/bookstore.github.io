@@ -1,0 +1,15 @@
+<div class="container-input">
+  <div class="input-group mb-3">
+    <input type="text"  class="form-control" placeholder="Search product...."
+    [(ngModel)] = "strInput"
+    #myInput (input)="checkStr(myInput.value)"
+    >
+    <button class="btn btn-primary" type="button" id="button-addon2" (click)="filterProduct1()">SEARCH</button>
+  </div>
+</div>
+<div class="category">
+  <a *ngFor="let el of category" (click)="changeCategory(el)">
+    {{el}}
+  </a>
+</div>
+

@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 860px;
+  border-bottom: 1px solid;
+  margin: 0 auto;
+  margin-top: 5px;
+
+  .block-photo {
+
+    &__photo {
+      width: 159px;
+      height: 157px;
+    }
+
+    &__product {
+      font-weight: bold;
+    }
+  }
+
+  .addToCart {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 200px;
+
+    .btn {
+      width: 133px;
+      height: 41px;
+      margin: 0 auto;
+    }
+
+    .cost {
+      font-weight: bold;
+      margin: 0 auto;
+      margin-top: 47px;
+    }
+
+    .cancel {
+      background-color: red;
+      border: none;
+      color: white;
+      width: 133px;
+      height: 41px;
+      margin: 0 auto;
+    }
+  }
+}

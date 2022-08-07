@@ -1,0 +1,49 @@
+.table-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: normal;
+  margin-bottom: 28px !important;
+  width: 1000px;
+  border: 1px solid #000;
+  margin: auto;
+  margin-top: 60px;
+
+  table {
+    border-collapse: collapse;
+
+    tr {
+
+      td {
+        border: 1px solid #666;
+        padding: 5px 10px;
+        text-align: center;
+
+        .product-photo {
+          width: 60px;
+        }
+
+       .btn-dark {
+          font-weight: bold;
+          color: white;
+          font-size: 20px;
+        }
+
+        .title {
+          font-size: 28px;
+          line-height: 40px;
+        }
+
+        .total-price {
+          font-weight: bold;
+          color: red;
+        }
+
+        button:hover {
+          box-shadow: inset 0 0 0 2px #3a7999;
+        }
+
+      }
+    }
+  }
+}
+
